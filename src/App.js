@@ -21,7 +21,7 @@ function App() {
 
     const project = response.data;
 
-    setProjects([...projects, project])
+    setProjects([...projects, project]);
   }
   return (
     <>
